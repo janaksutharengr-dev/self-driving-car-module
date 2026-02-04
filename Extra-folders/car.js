@@ -59,12 +59,6 @@ class Car {
             rayCount: 1,
             rayLength: carOptions.sensorOptions.rayLength,
          });
-         /*
-         this.lightSensor = new Sensor(this, {
-            rayCount: 3,
-            rayLength: carOptions.sensorOptions.rayLength,
-            raySpread:0.2
-         }); */
          this.lightSensor = new Sensor(this, {
             rayCount: 7,
             rayLength: carOptions.sensorOptions.rayLength,
@@ -608,3 +602,4 @@ class Car {
       }
    }
 }
+
